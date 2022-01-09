@@ -3,16 +3,24 @@ import Counter from './components/Counter.vue'
 </script>
 
 <template>
-  <Counter msg="Hello Counter" />
+  <Counter />
 </template>
 
 <style>
+html,
+body {
+  margin: 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: black;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 </style>
